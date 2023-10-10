@@ -1,0 +1,137 @@
+pcf
+* control data
+restart  estimation
+   94    13    4     0     2
+    1     1 double point   1   0   0
+  10.0   -3.0   0.3   0.03    10   999
+  10.0   10.0 0.001  0
+  0.1
+   30  0.005    4     3  0.01     3   90000.0 
+    1     1     1
+* singular value decomposition
+ 1
+ 94   5E-7
+ 0
+* parameter groups
+dry    relative 0.01  0.0  switch  2.0 parabolic 
+wet    relative 0.01  0.0  switch  2.0 parabolic 
+temp   relative 0.01  0.0  switch  2.0 parabolic 
+event  relative 0.01  0.0  switch  2.0 parabolic 
+* parameter data
+m1_drysl_n     log   factor      3.08446       2.50        6.00        dry   1.0000        0.0000      1
+m1_drysl_p     log   factor      0.23843       0.13        0.50        dry   1.0000        0.0000      1
+m2_drysl_n     log   factor      5.72871       3.00        7.00        dry   1.0000        0.0000      1
+m2_drysl_p     log   factor      0.23465       0.13        0.50        dry   1.0000        0.0000      1
+m3_drysl_n     log   factor      2.79935       2.50        6.00        dry   1.0000        0.0000      1
+m3_drysl_p     log   factor      0.26470       0.15        0.50        dry   1.0000        0.0000      1
+m4_drysl_n     log   factor      2.74598       2.50        6.00        dry   1.0000        0.0000      1
+m4_drysl_p     log   factor      0.15075       0.13        0.50        dry   1.0000        0.0000      1
+m5_drysl_n     log   factor      2.97342       2.50        7.00        dry   1.0000        0.0000      1
+m5_drysl_p     log   factor      0.41569       0.15        0.50        dry   1.0000        0.0000      1
+m6_drysl_n     log   factor      6.35677       3.00        7.00        dry   1.0000        0.0000      1
+m6_drysl_p     log   factor      0.38052       0.13        0.55        dry   1.0000        0.0000      1
+m7_drysl_n     log   factor      7.00000       3.00        8.00        dry   1.0000        0.0000      1
+m7_drysl_p     log   factor      0.16419       0.13        0.50        dry   1.0000        0.0000      1
+m8_drysl_n     log   factor      2.81408       2.50        6.00        dry   1.0000        0.0000      1
+m8_drysl_p     log   factor      0.15420       0.13        0.55        dry   1.0000        0.0000      1
+m9_drysl_n     log   factor      7.00000       3.00        8.00        dry   1.0000        0.0000      1
+m9_drysl_p     log   factor      0.14924       0.13        0.50        dry   1.0000        0.0000      1
+m10_drysl_n    log   factor      2.76808       2.50        6.00        dry   1.0000        0.0000      1
+m10_drysl_p    log   factor      0.51243       0.13        0.55        dry   1.0000        0.0000      1
+m11_drysl_n    log   factor      5.21857       3.00        7.00        dry   1.0000        0.0000      1
+m11_drysl_p    log   factor      0.15808       0.13        0.50        dry   1.0000        0.0000      1
+m12_drysl_n    log   factor      5.91721       3.00        7.00        dry   1.0000        0.0000      1
+m12_drysl_p    log   factor      0.13000       0.10        0.50        dry   1.0000        0.0000      1
+m1_wetsl_n     log   factor      4.33164       1.00        5.00        wet   1.0000        0.0000      1
+m1_wetsl_p     log   factor      0.33482       0.25        0.75        wet   1.0000        0.0000      1
+m2_wetsl_n     log   factor      5.00000       1.00        6.00        wet   1.0000        0.0000      1
+m2_wetsl_p     log   factor      0.69829       0.30        0.90        wet   1.0000        0.0000      1
+m3_wetsl_n     log   factor      5.00000       1.00        6.00        wet   1.0000        0.0000      1
+m3_wetsl_p     log   factor      0.39532       0.25        0.70        wet   1.0000        0.0000      1
+m4_wetsl_n     log   factor      3.48693       1.00        5.00        wet   1.0000        0.0000      1
+m4_wetsl_p     log   factor      0.66633       0.30        0.80        wet   1.0000        0.0000      1
+m5_wetsl_n     log   factor      0.88679       0.80        4.00        wet   1.0000        0.0000      1
+m5_wetsl_p     log   factor      0.25108       0.20        0.70        wet   1.0000        0.0000      1
+m6_wetsl_n     log   factor      4.74907       1.00        6.00        wet   1.0000        0.0000      1
+m6_wetsl_p     log   factor      0.40700       0.25        0.70        wet   1.0000        0.0000      1
+m7_wetsl_n     log   factor      3.72882       1.00        5.00        wet   1.0000        0.0000      1
+m7_wetsl_p     log   factor      0.25000       0.20        0.70        wet   1.0000        0.0000      1
+m8_wetsl_n     log   factor      4.50840       1.00        5.00        wet   1.0000        0.0000      1
+m8_wetsl_p     log   factor      0.31216       0.25        0.75        wet   1.0000        0.0000      1
+m9_wetsl_n     log   factor      0.93121       0.80        4.00        wet   1.0000        0.0000      1
+m9_wetsl_p     log   factor      0.67882       0.30        0.80        wet   1.0000        0.0000      1
+m10_wetsl_n    log   factor      3.87295       1.00        5.00        wet   1.0000        0.0000      1
+m10_wetsl_p    log   factor      0.29935       0.25        0.70        wet   1.0000        0.0000      1
+m11_wetsl_n    log   factor      5.00000       1.00        6.00        wet   1.0000        0.0000      1
+m11_wetsl_p    log   factor      0.80000       0.30        0.90        wet   1.0000        0.0000      1
+m12_wetsl_n    log   factor      0.86146       0.80        4.00        wet   1.0000        0.0000      1
+m12_wetsl_p    log   factor      0.80000       0.30        0.90        wet   1.0000        0.0000      1
+m1_pdep_a      log   factor      1.66978       0.60        2.00        wet   1.0000        0.0000      1
+m1_pdep_c      log   factor      0.70000       0.60        2.50        wet   1.0000        0.0000      1
+m1_pdep_sca    log   factor      5.53745       4.00       10.00        wet   1.0000        0.0000      1
+m2_pdep_a      log   factor      0.78472       0.70        1.50        wet   1.0000        0.0000      1
+m2_pdep_c      log   factor      2.59456       0.75        3.00        wet   1.0000        0.0000      1
+m2_pdep_sca    log   factor     11.38800       5.00       12.00        wet   1.0000        0.0000      1
+m3_pdep_a      log   factor      1.43639       0.75        2.00        wet   1.0000        0.0000      1
+m3_pdep_c      log   factor      2.37903       0.75        3.00        wet   1.0000        0.0000      1
+m3_pdep_sca    log   factor      4.88047       4.00       10.00        wet   1.0000        0.0000      1
+m4_pdep_a      log   factor      1.69821       0.75        2.00        wet   1.0000        0.0000      1
+m4_pdep_c      log   factor      2.37617       0.75        3.00        wet   1.0000        0.0000      1
+m4_pdep_sca    log   factor      5.51202       4.00       10.00        wet   1.0000        0.0000      1
+m5_pdep_a      log   factor      0.78974       0.60        1.50        wet   1.0000        0.0000      1
+m5_pdep_c      log   factor      2.58385       0.75        3.00        wet   1.0000        0.0000      1
+m5_pdep_sca    log   factor     11.66110       5.00       12.00        wet   1.0000        0.0000      1
+m6_pdep_a      log   factor      0.71860       0.60        1.60        wet   1.0000        0.0000      1
+m6_pdep_c      log   factor      0.80553       0.60        2.50        wet   1.0000        0.0000      1
+m6_pdep_sca    log   factor      4.95406       4.00       12.00        wet   1.0000        0.0000      1
+m7_pdep_a      log   factor      0.78962       0.60        1.50        wet   1.0000        0.0000      1
+m7_pdep_c      log   factor      0.74249       0.60        2.50        wet   1.0000        0.0000      1
+m7_pdep_sca    log   factor      9.18295       5.00       12.00        wet   1.0000        0.0000      1
+m8_pdep_a      log   factor      1.46396       0.75        1.60        wet   1.0000        0.0000      1
+m8_pdep_c      log   factor      0.75716       0.60        2.50        wet   1.0000        0.0000      1
+m8_pdep_sca    log   factor     10.26520       5.00       12.00        wet   1.0000        0.0000      1
+m9_pdep_a      log   factor      1.54730       0.75        1.60        wet   1.0000        0.0000      1
+m9_pdep_c      log   factor      0.69157       0.60        2.50        wet   1.0000        0.0000      1
+m9_pdep_sca    log   factor     11.30650       5.00       12.00        wet   1.0000        0.0000      1
+m10_pdep_a     log   factor      1.44484       0.75        1.80        wet   1.0000        0.0000      1
+m10_pdep_c     log   factor      0.60816       0.50        2.50        wet   1.0000        0.0000      1
+m10_pdep_sca   log   factor      6.01095       4.00       10.00        wet   1.0000        0.0000      1
+m11_pdep_a     log   factor      1.30427       0.70        1.60        wet   1.0000        0.0000      1
+m11_pdep_c     log   factor      0.79106       0.70        3.00        wet   1.0000        0.0000      1
+m11_pdep_sca   log   factor      9.48957       5.00       12.00        wet   1.0000        0.0000      1
+m12_pdep_a     log   factor      1.41746       0.70        1.60        wet   1.0000        0.0000      1
+m12_pdep_c     log   factor      2.49844       0.75        3.00        wet   1.0000        0.0000      1
+m12_pdep_sca   log   factor      4.62625       4.00       10.00        wet   1.0000        0.0000      1
+tmax_wet_add   log   factor      5.79470       2.00        8.00       temp   1.0000        0.0000      1
+tmax_dry_add   log   factor      5.99872       2.00        8.00       temp   1.0000        0.0000      1
+tmin_wet_add   log   factor      2.14164       0.10        3.00       temp   1.0000        0.0000      1
+tmin_dry_add   log   factor      2.12933       0.10        3.00       temp   1.0000        0.0000      1
+ev_2yr_max     log   factor       201.76     105.00      250.00      event   1.0000        0.0000      1
+ev_5yr_max     log   factor       140.00     135.00      250.00      event   1.0000        0.0000      1
+ev_10yr_max    log   factor       300.76     190.00      350.00      event   1.0000        0.0000      1
+ev_25yr_max    log   factor       354.34     250.00      400.00      event   1.0000        0.0000      1
+ev_50yr_max    log   factor       465.65     300.00      500.00      event   1.0000        0.0000      1
+ev_100yr_max   log   factor       526.31     370.00      550.00      event   1.0000        0.0000      1
+* observation groups
+spei
+annpre
+* observation data
+ann_ave_pre_dep         953.900       1.0   annpre
+mon_1_cum_prob           0.1750   20000.0   spei
+mon_2_cum_prob           0.1750   20000.0   spei
+mon_3_cum_prob           0.1750   20000.0   spei
+mon_4_cum_prob           0.1750   20000.0   spei
+mon_5_cum_prob           0.1750   20000.0   spei
+mon_6_cum_prob           0.1750   20000.0   spei
+mon_7_cum_prob           0.1750   20000.0   spei
+mon_8_cum_prob           0.1750   20000.0   spei
+mon_9_cum_prob           0.1750   20000.0   spei
+mon_10_cum_prob          0.1750   20000.0   spei
+mon_11_cum_prob          0.1750   20000.0   spei
+mon_12_cum_prob          0.1750   20000.0   spei
+* model command line
+python eaa_wg\EAAWGmp.py 12 --num_real 168
+* model input/output
+EAAWG_Inputs.tpl  EAAWG_Inputs.py
+out.ins  CollOuts.dat 
+* prior information

@@ -1,0 +1,1007 @@
+
+                       PEST RUN RECORD: CASE wgfit
+
+
+PEST Version: 17.1
+
+
+PEST run mode:-
+
+   Parameter estimation mode
+
+
+Case dimensions:-
+
+   Number of parameters                           :    94
+   Number of adjustable parameters                :    94
+   Number of parameter groups                     :     4
+   Number of observations                         :    13
+   Number of prior estimates                      :     0
+
+
+Model command line(s):-
+
+   python eaa_wg\EAAWGmp.py 12 --num_real 168
+
+
+Jacobian command line:-
+
+   na
+
+
+Model interface files:-
+
+   Templates:
+      EAAWG_Inputs.tpl
+   for model input files:
+      EAAWG_Inputs.py
+
+   (Parameter values written using double precision protocol.)
+   (Decimal point always included.)
+
+   Instruction files:
+      out.ins
+   for reading model output files:
+      CollOuts.dat
+
+
+PEST-to-model message file:-
+
+   na
+
+
+Singular value decomposition:-
+
+   Perform SVD on XtQX or Q^(1/2)X               : XtQX
+   Max. number of singular values to employ      : 94
+   Ratio of lowest/highest singular value        :  5.000000E-07
+   Record eigenvectors in SVD file               : no
+
+
+Derivatives calculation:-
+
+Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+group        type                    low bound   central      (central)   (central)
+dry          relative    1.0000E-02   none         switch       2.000     parabolic
+wet          relative    1.0000E-02   none         switch       2.000     parabolic
+temp         relative    1.0000E-02   none         switch       2.000     parabolic
+event        relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+Parameter definitions:-
+
+Name         Trans-            Change       Initial        Lower          Upper
+             formation         limit        value          bound          bound
+m1_drysl_n   log               factor      3.08446        2.50000        6.00000    
+m1_drysl_p   log               factor     0.238430       0.130000       0.500000    
+m2_drysl_n   log               factor      5.72871        3.00000        7.00000    
+m2_drysl_p   log               factor     0.234650       0.130000       0.500000    
+m3_drysl_n   log               factor      2.79935        2.50000        6.00000    
+m3_drysl_p   log               factor     0.264700       0.150000       0.500000    
+m4_drysl_n   log               factor      2.74598        2.50000        6.00000    
+m4_drysl_p   log               factor     0.150750       0.130000       0.500000    
+m5_drysl_n   log               factor      2.97342        2.50000        7.00000    
+m5_drysl_p   log               factor     0.415690       0.150000       0.500000    
+m6_drysl_n   log               factor      6.35677        3.00000        7.00000    
+m6_drysl_p   log               factor     0.380520       0.130000       0.550000    
+m7_drysl_n   log               factor      7.00000        3.00000        8.00000    
+m7_drysl_p   log               factor     0.164190       0.130000       0.500000    
+m8_drysl_n   log               factor      2.81408        2.50000        6.00000    
+m8_drysl_p   log               factor     0.154200       0.130000       0.550000    
+m9_drysl_n   log               factor      7.00000        3.00000        8.00000    
+m9_drysl_p   log               factor     0.149240       0.130000       0.500000    
+m10_drysl_n  log               factor      2.76808        2.50000        6.00000    
+m10_drysl_p  log               factor     0.512430       0.130000       0.550000    
+m11_drysl_n  log               factor      5.21857        3.00000        7.00000    
+m11_drysl_p  log               factor     0.158080       0.130000       0.500000    
+m12_drysl_n  log               factor      5.91721        3.00000        7.00000    
+m12_drysl_p  log               factor     0.130000       0.100000       0.500000    
+m1_wetsl_n   log               factor      4.33164        1.00000        5.00000    
+m1_wetsl_p   log               factor     0.334820       0.250000       0.750000    
+m2_wetsl_n   log               factor      5.00000        1.00000        6.00000    
+m2_wetsl_p   log               factor     0.698290       0.300000       0.900000    
+m3_wetsl_n   log               factor      5.00000        1.00000        6.00000    
+m3_wetsl_p   log               factor     0.395320       0.250000       0.700000    
+m4_wetsl_n   log               factor      3.48693        1.00000        5.00000    
+m4_wetsl_p   log               factor     0.666330       0.300000       0.800000    
+m5_wetsl_n   log               factor     0.886790       0.800000        4.00000    
+m5_wetsl_p   log               factor     0.251080       0.200000       0.700000    
+m6_wetsl_n   log               factor      4.74907        1.00000        6.00000    
+m6_wetsl_p   log               factor     0.407000       0.250000       0.700000    
+m7_wetsl_n   log               factor      3.72882        1.00000        5.00000    
+m7_wetsl_p   log               factor     0.250000       0.200000       0.700000    
+m8_wetsl_n   log               factor      4.50840        1.00000        5.00000    
+m8_wetsl_p   log               factor     0.312160       0.250000       0.750000    
+m9_wetsl_n   log               factor     0.931210       0.800000        4.00000    
+m9_wetsl_p   log               factor     0.678820       0.300000       0.800000    
+m10_wetsl_n  log               factor      3.87295        1.00000        5.00000    
+m10_wetsl_p  log               factor     0.299350       0.250000       0.700000    
+m11_wetsl_n  log               factor      5.00000        1.00000        6.00000    
+m11_wetsl_p  log               factor     0.800000       0.300000       0.900000    
+m12_wetsl_n  log               factor     0.861460       0.800000        4.00000    
+m12_wetsl_p  log               factor     0.800000       0.300000       0.900000    
+m1_pdep_a    log               factor      1.66978       0.600000        2.00000    
+m1_pdep_c    log               factor     0.700000       0.600000        2.50000    
+m1_pdep_sca  log               factor      5.53745        4.00000        10.0000    
+m2_pdep_a    log               factor     0.784720       0.700000        1.50000    
+m2_pdep_c    log               factor      2.59456       0.750000        3.00000    
+m2_pdep_sca  log               factor      11.3880        5.00000        12.0000    
+m3_pdep_a    log               factor      1.43639       0.750000        2.00000    
+m3_pdep_c    log               factor      2.37903       0.750000        3.00000    
+m3_pdep_sca  log               factor      4.88047        4.00000        10.0000    
+m4_pdep_a    log               factor      1.69821       0.750000        2.00000    
+m4_pdep_c    log               factor      2.37617       0.750000        3.00000    
+m4_pdep_sca  log               factor      5.51202        4.00000        10.0000    
+m5_pdep_a    log               factor     0.789740       0.600000        1.50000    
+m5_pdep_c    log               factor      2.58385       0.750000        3.00000    
+m5_pdep_sca  log               factor      11.6611        5.00000        12.0000    
+m6_pdep_a    log               factor     0.718600       0.600000        1.60000    
+m6_pdep_c    log               factor     0.805530       0.600000        2.50000    
+m6_pdep_sca  log               factor      4.95406        4.00000        12.0000    
+m7_pdep_a    log               factor     0.789620       0.600000        1.50000    
+m7_pdep_c    log               factor     0.742490       0.600000        2.50000    
+m7_pdep_sca  log               factor      9.18295        5.00000        12.0000    
+m8_pdep_a    log               factor      1.46396       0.750000        1.60000    
+m8_pdep_c    log               factor     0.757160       0.600000        2.50000    
+m8_pdep_sca  log               factor      10.2652        5.00000        12.0000    
+m9_pdep_a    log               factor      1.54730       0.750000        1.60000    
+m9_pdep_c    log               factor     0.691570       0.600000        2.50000    
+m9_pdep_sca  log               factor      11.3065        5.00000        12.0000    
+m10_pdep_a   log               factor      1.44484       0.750000        1.80000    
+m10_pdep_c   log               factor     0.608160       0.500000        2.50000    
+m10_pdep_sca log               factor      6.01095        4.00000        10.0000    
+m11_pdep_a   log               factor      1.30427       0.700000        1.60000    
+m11_pdep_c   log               factor     0.791060       0.700000        3.00000    
+m11_pdep_sca log               factor      9.48957        5.00000        12.0000    
+m12_pdep_a   log               factor      1.41746       0.700000        1.60000    
+m12_pdep_c   log               factor      2.49844       0.750000        3.00000    
+m12_pdep_sca log               factor      4.62625        4.00000        10.0000    
+tmax_wet_add log               factor      5.79470        2.00000        8.00000    
+tmax_dry_add log               factor      5.99872        2.00000        8.00000    
+tmin_wet_add log               factor      2.14164       0.100000        3.00000    
+tmin_dry_add log               factor      2.12933       0.100000        3.00000    
+ev_2yr_max   log               factor      201.760        105.000        250.000    
+ev_5yr_max   log               factor      140.000        135.000        250.000    
+ev_10yr_max  log               factor      300.760        190.000        350.000    
+ev_25yr_max  log               factor      354.340        250.000        400.000    
+ev_50yr_max  log               factor      465.650        300.000        500.000    
+ev_100yr_max log               factor      526.310        370.000        550.000    
+
+Name         Group          Scale         Offset        Model command number
+m1_drysl_n   dry           1.00000        0.00000            1
+m1_drysl_p   dry           1.00000        0.00000            1
+m2_drysl_n   dry           1.00000        0.00000            1
+m2_drysl_p   dry           1.00000        0.00000            1
+m3_drysl_n   dry           1.00000        0.00000            1
+m3_drysl_p   dry           1.00000        0.00000            1
+m4_drysl_n   dry           1.00000        0.00000            1
+m4_drysl_p   dry           1.00000        0.00000            1
+m5_drysl_n   dry           1.00000        0.00000            1
+m5_drysl_p   dry           1.00000        0.00000            1
+m6_drysl_n   dry           1.00000        0.00000            1
+m6_drysl_p   dry           1.00000        0.00000            1
+m7_drysl_n   dry           1.00000        0.00000            1
+m7_drysl_p   dry           1.00000        0.00000            1
+m8_drysl_n   dry           1.00000        0.00000            1
+m8_drysl_p   dry           1.00000        0.00000            1
+m9_drysl_n   dry           1.00000        0.00000            1
+m9_drysl_p   dry           1.00000        0.00000            1
+m10_drysl_n  dry           1.00000        0.00000            1
+m10_drysl_p  dry           1.00000        0.00000            1
+m11_drysl_n  dry           1.00000        0.00000            1
+m11_drysl_p  dry           1.00000        0.00000            1
+m12_drysl_n  dry           1.00000        0.00000            1
+m12_drysl_p  dry           1.00000        0.00000            1
+m1_wetsl_n   wet           1.00000        0.00000            1
+m1_wetsl_p   wet           1.00000        0.00000            1
+m2_wetsl_n   wet           1.00000        0.00000            1
+m2_wetsl_p   wet           1.00000        0.00000            1
+m3_wetsl_n   wet           1.00000        0.00000            1
+m3_wetsl_p   wet           1.00000        0.00000            1
+m4_wetsl_n   wet           1.00000        0.00000            1
+m4_wetsl_p   wet           1.00000        0.00000            1
+m5_wetsl_n   wet           1.00000        0.00000            1
+m5_wetsl_p   wet           1.00000        0.00000            1
+m6_wetsl_n   wet           1.00000        0.00000            1
+m6_wetsl_p   wet           1.00000        0.00000            1
+m7_wetsl_n   wet           1.00000        0.00000            1
+m7_wetsl_p   wet           1.00000        0.00000            1
+m8_wetsl_n   wet           1.00000        0.00000            1
+m8_wetsl_p   wet           1.00000        0.00000            1
+m9_wetsl_n   wet           1.00000        0.00000            1
+m9_wetsl_p   wet           1.00000        0.00000            1
+m10_wetsl_n  wet           1.00000        0.00000            1
+m10_wetsl_p  wet           1.00000        0.00000            1
+m11_wetsl_n  wet           1.00000        0.00000            1
+m11_wetsl_p  wet           1.00000        0.00000            1
+m12_wetsl_n  wet           1.00000        0.00000            1
+m12_wetsl_p  wet           1.00000        0.00000            1
+m1_pdep_a    wet           1.00000        0.00000            1
+m1_pdep_c    wet           1.00000        0.00000            1
+m1_pdep_sca  wet           1.00000        0.00000            1
+m2_pdep_a    wet           1.00000        0.00000            1
+m2_pdep_c    wet           1.00000        0.00000            1
+m2_pdep_sca  wet           1.00000        0.00000            1
+m3_pdep_a    wet           1.00000        0.00000            1
+m3_pdep_c    wet           1.00000        0.00000            1
+m3_pdep_sca  wet           1.00000        0.00000            1
+m4_pdep_a    wet           1.00000        0.00000            1
+m4_pdep_c    wet           1.00000        0.00000            1
+m4_pdep_sca  wet           1.00000        0.00000            1
+m5_pdep_a    wet           1.00000        0.00000            1
+m5_pdep_c    wet           1.00000        0.00000            1
+m5_pdep_sca  wet           1.00000        0.00000            1
+m6_pdep_a    wet           1.00000        0.00000            1
+m6_pdep_c    wet           1.00000        0.00000            1
+m6_pdep_sca  wet           1.00000        0.00000            1
+m7_pdep_a    wet           1.00000        0.00000            1
+m7_pdep_c    wet           1.00000        0.00000            1
+m7_pdep_sca  wet           1.00000        0.00000            1
+m8_pdep_a    wet           1.00000        0.00000            1
+m8_pdep_c    wet           1.00000        0.00000            1
+m8_pdep_sca  wet           1.00000        0.00000            1
+m9_pdep_a    wet           1.00000        0.00000            1
+m9_pdep_c    wet           1.00000        0.00000            1
+m9_pdep_sca  wet           1.00000        0.00000            1
+m10_pdep_a   wet           1.00000        0.00000            1
+m10_pdep_c   wet           1.00000        0.00000            1
+m10_pdep_sca wet           1.00000        0.00000            1
+m11_pdep_a   wet           1.00000        0.00000            1
+m11_pdep_c   wet           1.00000        0.00000            1
+m11_pdep_sca wet           1.00000        0.00000            1
+m12_pdep_a   wet           1.00000        0.00000            1
+m12_pdep_c   wet           1.00000        0.00000            1
+m12_pdep_sca wet           1.00000        0.00000            1
+tmax_wet_add temp          1.00000        0.00000            1
+tmax_dry_add temp          1.00000        0.00000            1
+tmin_wet_add temp          1.00000        0.00000            1
+tmin_dry_add temp          1.00000        0.00000            1
+ev_2yr_max   event         1.00000        0.00000            1
+ev_5yr_max   event         1.00000        0.00000            1
+ev_10yr_max  event         1.00000        0.00000            1
+ev_25yr_max  event         1.00000        0.00000            1
+ev_50yr_max  event         1.00000        0.00000            1
+ev_100yr_max event         1.00000        0.00000            1
+
+
+Prior information:-
+
+   No prior information supplied
+
+
+Observations:-
+
+Observation name        Observation       Weight       Group
+ ann_ave_pre_dep         953.900          1.000       annpre      
+ mon_1_cum_prob         0.175000         2.0000E+04   spei        
+ mon_2_cum_prob         0.175000         2.0000E+04   spei        
+ mon_3_cum_prob         0.175000         2.0000E+04   spei        
+ mon_4_cum_prob         0.175000         2.0000E+04   spei        
+ mon_5_cum_prob         0.175000         2.0000E+04   spei        
+ mon_6_cum_prob         0.175000         2.0000E+04   spei        
+ mon_7_cum_prob         0.175000         2.0000E+04   spei        
+ mon_8_cum_prob         0.175000         2.0000E+04   spei        
+ mon_9_cum_prob         0.175000         2.0000E+04   spei        
+ mon_10_cum_prob        0.175000         2.0000E+04   spei        
+ mon_11_cum_prob        0.175000         2.0000E+04   spei        
+ mon_12_cum_prob        0.175000         2.0000E+04   spei        
+
+
+Control settings:-
+
+   Initial lambda                                               :  10.000    
+   Lambda adjustment factor                                     : iteration-dependent
+   Value of variable governing adjustment                       : -3.0000    
+   Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+   Limiting relative phi reduction between lambdas              : 3.00000E-02
+   Maximum trial lambdas per iteration                          :  10
+   Forgive model run failure during lamda testing               : no
+   Forgive model run failure during Jacobian runs               : no
+
+   Perform Broyden's update of Jacobian matrix                  : yes
+   Maximum number of updates per iteration                      : 999
+   Undertake observation re-referencing                         : no
+
+   Maximum  factor  parameter change (factor-limited changes)   :  10.000
+   Maximum relative parameter change (relative-limited changes) : na
+   Fraction of initial parameter values used in computing
+   change limit for near-zero parameters                        : 1.00000E-03
+   Allow bending of parameter upgrade vector                    : no
+   Allow parameters to stick to their bounds                    : no
+
+   Relative phi reduction below which to begin use of
+   central derivatives                                          : 0.10000             
+   Iteration at which to first consider derivatives switch      :   1
+
+   Relative phi reduction indicating convergence                : 0.50000E-02
+   Number of phi values required within this range              :   4
+   Maximum number of consecutive failures to lower phi          :   3
+   Minimal relative parameter change indicating convergence     : 0.10000E-01
+   Number of consecutive iterations with minimal param change   :   3
+   Maximum number of optimisation iterations                    :  30
+   Objective function termination limit                         :  90000.    
+
+   Attempt automatic user intervention                          : no
+
+   Attempt reuse of parameter sensitivities                     : no
+
+   Scale parameters by their bounds                             : no
+
+
+File saving options: -
+
+   Save best JCO file                                           : yes
+   Save multiple JCO files                                      : no
+   Save multiple REI files                                      : no
+   Save multiple PAR files                                      : no
+
+
+                            OPTIMISATION RECORD
+
+
+INITIAL CONDITIONS: 
+   Sum of squared weighted residuals (ie phi)               =  5.51840E+06
+   Contribution to phi from observation group "spei"        =  5.51840E+06
+   Contribution to phi from observation group "annpre"      =   1.9600    
+
+      Current parameter values
+      m1_drysl_n       3.08446    
+      m1_drysl_p      0.238430    
+      m2_drysl_n       5.72871    
+      m2_drysl_p      0.234650    
+      m3_drysl_n       2.79935    
+      m3_drysl_p      0.264700    
+      m4_drysl_n       2.74598    
+      m4_drysl_p      0.150750    
+      m5_drysl_n       2.97342    
+      m5_drysl_p      0.415690    
+      m6_drysl_n       6.35677    
+      m6_drysl_p      0.380520    
+      m7_drysl_n       7.00000    
+      m7_drysl_p      0.164190    
+      m8_drysl_n       2.81408    
+      m8_drysl_p      0.154200    
+      m9_drysl_n       7.00000    
+      m9_drysl_p      0.149240    
+      m10_drysl_n      2.76808    
+      m10_drysl_p     0.512430    
+      m11_drysl_n      5.21857    
+      m11_drysl_p     0.158080    
+      m12_drysl_n      5.91721    
+      m12_drysl_p     0.130000    
+      m1_wetsl_n       4.33164    
+      m1_wetsl_p      0.334820    
+      m2_wetsl_n       5.00000    
+      m2_wetsl_p      0.698290    
+      m3_wetsl_n       5.00000    
+      m3_wetsl_p      0.395320    
+      m4_wetsl_n       3.48693    
+      m4_wetsl_p      0.666330    
+      m5_wetsl_n      0.886790    
+      m5_wetsl_p      0.251080    
+      m6_wetsl_n       4.74907    
+      m6_wetsl_p      0.407000    
+      m7_wetsl_n       3.72882    
+      m7_wetsl_p      0.250000    
+      m8_wetsl_n       4.50840    
+      m8_wetsl_p      0.312160    
+      m9_wetsl_n      0.931210    
+      m9_wetsl_p      0.678820    
+      m10_wetsl_n      3.87295    
+      m10_wetsl_p     0.299350    
+      m11_wetsl_n      5.00000    
+      m11_wetsl_p     0.800000    
+      m12_wetsl_n     0.861460    
+      m12_wetsl_p     0.800000    
+      m1_pdep_a        1.66978    
+      m1_pdep_c       0.700000    
+      m1_pdep_sca      5.53745    
+      m2_pdep_a       0.784720    
+      m2_pdep_c        2.59456    
+      m2_pdep_sca      11.3880    
+      m3_pdep_a        1.43639    
+      m3_pdep_c        2.37903    
+      m3_pdep_sca      4.88047    
+      m4_pdep_a        1.69821    
+      m4_pdep_c        2.37617    
+      m4_pdep_sca      5.51202    
+      m5_pdep_a       0.789740    
+      m5_pdep_c        2.58385    
+      m5_pdep_sca      11.6611    
+      m6_pdep_a       0.718600    
+      m6_pdep_c       0.805530    
+      m6_pdep_sca      4.95406    
+      m7_pdep_a       0.789620    
+      m7_pdep_c       0.742490    
+      m7_pdep_sca      9.18295    
+      m8_pdep_a        1.46396    
+      m8_pdep_c       0.757160    
+      m8_pdep_sca      10.2652    
+      m9_pdep_a        1.54730    
+      m9_pdep_c       0.691570    
+      m9_pdep_sca      11.3065    
+      m10_pdep_a       1.44484    
+      m10_pdep_c      0.608160    
+      m10_pdep_sca     6.01095    
+      m11_pdep_a       1.30427    
+      m11_pdep_c      0.791060    
+      m11_pdep_sca     9.48957    
+      m12_pdep_a       1.41746    
+      m12_pdep_c       2.49844    
+      m12_pdep_sca     4.62625    
+      tmax_wet_add     5.79470    
+      tmax_dry_add     5.99872    
+      tmin_wet_add     2.14164    
+      tmin_dry_add     2.12933    
+      ev_2yr_max       201.760    
+      ev_5yr_max       140.000    
+      ev_10yr_max      300.760    
+      ev_25yr_max      354.340    
+      ev_50yr_max      465.650    
+      ev_100yr_max     526.310    
+
+
+OPTIMISATION ITERATION NO.        : 1
+   Model calls so far             : 1
+   Starting phi for this iteration                          :  5.51840E+06
+   Contribution to phi from observation group "spei"        :  5.51840E+06
+   Contribution to phi from observation group "annpre"      :   1.9600    
+   Jacobian matrix read from file init_wgfit.jco
+
+       Lambda =   10.000     ----->
+          Phi =  1.57690E+07  (  2.858 times starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   4.6416     ----->
+          Phi =  3.50263E+07  (  6.347 times starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   21.544     ----->
+          Phi =  1.73848E+07  (  3.150 times starting phi)
+
+   No more lambdas: phi rising
+   Lowest phi this iteration:  1.57690E+07
+   Relative phi reduction between optimisation iterations less than 0.1000
+   Switch to higher order derivatives calculation
+   (restart from best parameters so far - these achieved at iteration    0)
+
+      Current parameter values
+      m1_drysl_n       3.08446    
+      m1_drysl_p      0.238430    
+      m2_drysl_n       5.72871    
+      m2_drysl_p      0.234650    
+      m3_drysl_n       2.79935    
+      m3_drysl_p      0.264700    
+      m4_drysl_n       2.74598    
+      m4_drysl_p      0.150750    
+      m5_drysl_n       2.97342    
+      m5_drysl_p      0.415690    
+      m6_drysl_n       6.35677    
+      m6_drysl_p      0.380520    
+      m7_drysl_n       7.00000    
+      m7_drysl_p      0.164190    
+      m8_drysl_n       2.81408    
+      m8_drysl_p      0.154200    
+      m9_drysl_n       7.00000    
+      m9_drysl_p      0.149240    
+      m10_drysl_n      2.76808    
+      m10_drysl_p     0.512430    
+      m11_drysl_n      5.21857    
+      m11_drysl_p     0.158080    
+      m12_drysl_n      5.91721    
+      m12_drysl_p     0.130000    
+      m1_wetsl_n       4.33164    
+      m1_wetsl_p      0.334820    
+      m2_wetsl_n       5.00000    
+      m2_wetsl_p      0.698290    
+      m3_wetsl_n       5.00000    
+      m3_wetsl_p      0.395320    
+      m4_wetsl_n       3.48693    
+      m4_wetsl_p      0.666330    
+      m5_wetsl_n      0.886790    
+      m5_wetsl_p      0.251080    
+      m6_wetsl_n       4.74907    
+      m6_wetsl_p      0.407000    
+      m7_wetsl_n       3.72882    
+      m7_wetsl_p      0.250000    
+      m8_wetsl_n       4.50840    
+      m8_wetsl_p      0.312160    
+      m9_wetsl_n      0.931210    
+      m9_wetsl_p      0.678820    
+      m10_wetsl_n      3.87295    
+      m10_wetsl_p     0.299350    
+      m11_wetsl_n      5.00000    
+      m11_wetsl_p     0.800000    
+      m12_wetsl_n     0.861460    
+      m12_wetsl_p     0.800000    
+      m1_pdep_a        1.66978    
+      m1_pdep_c       0.700000    
+      m1_pdep_sca      5.53745    
+      m2_pdep_a       0.784720    
+      m2_pdep_c        2.59456    
+      m2_pdep_sca      11.3880    
+      m3_pdep_a        1.43639    
+      m3_pdep_c        2.37903    
+      m3_pdep_sca      4.88047    
+      m4_pdep_a        1.69821    
+      m4_pdep_c        2.37617    
+      m4_pdep_sca      5.51202    
+      m5_pdep_a       0.789740    
+      m5_pdep_c        2.58385    
+      m5_pdep_sca      11.6611    
+      m6_pdep_a       0.718600    
+      m6_pdep_c       0.805530    
+      m6_pdep_sca      4.95406    
+      m7_pdep_a       0.789620    
+      m7_pdep_c       0.742490    
+      m7_pdep_sca      9.18295    
+      m8_pdep_a        1.46396    
+      m8_pdep_c       0.757160    
+      m8_pdep_sca      10.2652    
+      m9_pdep_a        1.54730    
+      m9_pdep_c       0.691570    
+      m9_pdep_sca      11.3065    
+      m10_pdep_a       1.44484    
+      m10_pdep_c      0.608160    
+      m10_pdep_sca     6.01095    
+      m11_pdep_a       1.30427    
+      m11_pdep_c      0.791060    
+      m11_pdep_sca     9.48957    
+      m12_pdep_a       1.41746    
+      m12_pdep_c       2.49844    
+      m12_pdep_sca     4.62625    
+      tmax_wet_add     5.79470    
+      tmax_dry_add     5.99872    
+      tmin_wet_add     2.14164    
+      tmin_dry_add     2.12933    
+      ev_2yr_max       201.760    
+      ev_5yr_max       140.000    
+      ev_10yr_max      300.760    
+      ev_25yr_max      354.340    
+      ev_50yr_max      465.650    
+      ev_100yr_max     526.310    
+
+
+OPTIMISATION ITERATION NO.        : 2
+   Model calls so far             : 4
+   Starting phi for this iteration                          :  5.51840E+06
+   Contribution to phi from observation group "spei"        :  5.51840E+06
+   Contribution to phi from observation group "annpre"      :   1.9600    
+
+       Lambda =   10.000     ----->
+          Phi =  2.09330E+07  (  3.793 times starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   4.6416     ----->
+          Phi =  1.00361E+08  ( 18.187 times starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   21.544     ----->
+          Phi =  5.71765E+07  ( 10.361 times starting phi)
+
+   No more lambdas: phi rising
+   Lowest phi this iteration:  2.09330E+07
+
+      Current parameter values                 Previous parameter values
+      m1_drysl_n       3.03204                 m1_drysl_n        3.08446    
+      m1_drysl_p      0.229701                 m1_drysl_p       0.238430    
+      m2_drysl_n       5.63979                 m2_drysl_n        5.72871    
+      m2_drysl_p      0.227774                 m2_drysl_p       0.234650    
+      m3_drysl_n       2.78963                 m3_drysl_n        2.79935    
+      m3_drysl_p      0.293782                 m3_drysl_p       0.264700    
+      m4_drysl_n       2.73056                 m4_drysl_n        2.74598    
+      m4_drysl_p      0.161039                 m4_drysl_p       0.150750    
+      m5_drysl_n       2.99051                 m5_drysl_n        2.97342    
+      m5_drysl_p      0.441745                 m5_drysl_p       0.415690    
+      m6_drysl_n       6.29339                 m6_drysl_n        6.35677    
+      m6_drysl_p      0.408649                 m6_drysl_p       0.380520    
+      m7_drysl_n       6.90715                 m7_drysl_n        7.00000    
+      m7_drysl_p      0.159450                 m7_drysl_p       0.164190    
+      m8_drysl_n       2.70737                 m8_drysl_n        2.81408    
+      m8_drysl_p      0.156910                 m8_drysl_p       0.154200    
+      m9_drysl_n       7.58569                 m9_drysl_n        7.00000    
+      m9_drysl_p      0.130000                 m9_drysl_p       0.149240    
+      m10_drysl_n      2.94168                 m10_drysl_n       2.76808    
+      m10_drysl_p     0.493398                 m10_drysl_p      0.512430    
+      m11_drysl_n      5.26014                 m11_drysl_n       5.21857    
+      m11_drysl_p     0.154280                 m11_drysl_p      0.158080    
+      m12_drysl_n      5.97975                 m12_drysl_n       5.91721    
+      m12_drysl_p     0.125921                 m12_drysl_p      0.130000    
+      m1_wetsl_n       4.42274                 m1_wetsl_n        4.33164    
+      m1_wetsl_p      0.314454                 m1_wetsl_p       0.334820    
+      m2_wetsl_n       4.74083                 m2_wetsl_n        5.00000    
+      m2_wetsl_p      0.688266                 m2_wetsl_p       0.698290    
+      m3_wetsl_n       5.07380                 m3_wetsl_n        5.00000    
+      m3_wetsl_p      0.389236                 m3_wetsl_p       0.395320    
+      m4_wetsl_n       3.50845                 m4_wetsl_n        3.48693    
+      m4_wetsl_p      0.673809                 m4_wetsl_p       0.666330    
+      m5_wetsl_n      0.943775                 m5_wetsl_n       0.886790    
+      m5_wetsl_p      0.248378                 m5_wetsl_p       0.251080    
+      m6_wetsl_n       4.65025                 m6_wetsl_n        4.74907    
+      m6_wetsl_p      0.366295                 m6_wetsl_p       0.407000    
+      m7_wetsl_n       3.80910                 m7_wetsl_n        3.72882    
+      m7_wetsl_p      0.234715                 m7_wetsl_p       0.250000    
+      m8_wetsl_n       4.19778                 m8_wetsl_n        4.50840    
+      m8_wetsl_p      0.316224                 m8_wetsl_p       0.312160    
+      m9_wetsl_n      0.894805                 m9_wetsl_n       0.931210    
+      m9_wetsl_p      0.633742                 m9_wetsl_p       0.678820    
+      m10_wetsl_n      3.87465                 m10_wetsl_n       3.87295    
+      m10_wetsl_p     0.281496                 m10_wetsl_p      0.299350    
+      m11_wetsl_n      4.64396                 m11_wetsl_n       5.00000    
+      m11_wetsl_p     0.838048                 m11_wetsl_p      0.800000    
+      m12_wetsl_n     0.882838                 m12_wetsl_n      0.861460    
+      m12_wetsl_p     0.752357                 m12_wetsl_p      0.800000    
+      m1_pdep_a        1.68626                 m1_pdep_a         1.66978    
+      m1_pdep_c       0.700954                 m1_pdep_c        0.700000    
+      m1_pdep_sca      5.59250                 m1_pdep_sca       5.53745    
+      m2_pdep_a       0.808054                 m2_pdep_a        0.784720    
+      m2_pdep_c        2.59645                 m2_pdep_c         2.59456    
+      m2_pdep_sca      11.7001                 m2_pdep_sca       11.3880    
+      m3_pdep_a        1.45022                 m3_pdep_a         1.43639    
+      m3_pdep_c        2.33689                 m3_pdep_c         2.37903    
+      m3_pdep_sca      4.76427                 m3_pdep_sca       4.88047    
+      m4_pdep_a        1.70101                 m4_pdep_a         1.69821    
+      m4_pdep_c        2.37128                 m4_pdep_c         2.37617    
+      m4_pdep_sca      5.66800                 m4_pdep_sca       5.51202    
+      m5_pdep_a       0.790460                 m5_pdep_a        0.789740    
+      m5_pdep_c        2.58273                 m5_pdep_c         2.58385    
+      m5_pdep_sca      11.4604                 m5_pdep_sca       11.6611    
+      m6_pdep_a       0.720433                 m6_pdep_a        0.718600    
+      m6_pdep_c       0.819483                 m6_pdep_c        0.805530    
+      m6_pdep_sca      4.98897                 m6_pdep_sca       4.95406    
+      m7_pdep_a       0.753157                 m7_pdep_a        0.789620    
+      m7_pdep_c       0.747124                 m7_pdep_c        0.742490    
+      m7_pdep_sca      9.07859                 m7_pdep_sca       9.18295    
+      m8_pdep_a        1.44977                 m8_pdep_a         1.46396    
+      m8_pdep_c       0.757625                 m8_pdep_c        0.757160    
+      m8_pdep_sca      10.1519                 m8_pdep_sca       10.2652    
+      m9_pdep_a        1.55675                 m9_pdep_a         1.54730    
+      m9_pdep_c       0.698531                 m9_pdep_c        0.691570    
+      m9_pdep_sca      11.3906                 m9_pdep_sca       11.3065    
+      m10_pdep_a       1.53078                 m10_pdep_a        1.44484    
+      m10_pdep_c      0.583871                 m10_pdep_c       0.608160    
+      m10_pdep_sca     6.07883                 m10_pdep_sca      6.01095    
+      m11_pdep_a       1.24017                 m11_pdep_a        1.30427    
+      m11_pdep_c      0.801772                 m11_pdep_c       0.791060    
+      m11_pdep_sca     9.49003                 m11_pdep_sca      9.48957    
+      m12_pdep_a       1.39003                 m12_pdep_a        1.41746    
+      m12_pdep_c       2.46590                 m12_pdep_c        2.49844    
+      m12_pdep_sca     4.62314                 m12_pdep_sca      4.62625    
+      tmax_wet_add     5.67253                 tmax_wet_add      5.79470    
+      tmax_dry_add     6.05253                 tmax_dry_add      5.99872    
+      tmin_wet_add     2.18422                 tmin_wet_add      2.14164    
+      tmin_dry_add     2.13617                 tmin_dry_add      2.12933    
+      ev_2yr_max       202.586                 ev_2yr_max        201.760    
+      ev_5yr_max       140.437                 ev_5yr_max        140.000    
+      ev_10yr_max      303.907                 ev_10yr_max       300.760    
+      ev_25yr_max      351.503                 ev_25yr_max       354.340    
+      ev_50yr_max      465.650                 ev_50yr_max       465.650    
+      ev_100yr_max     527.481                 ev_100yr_max      526.310    
+   Maximum   factor change:  1.148     ["m9_drysl_p"]
+   Maximum relative change: 0.1289     ["m9_drysl_p"]
+
+
+OPTIMISATION ITERATION NO.        : 3
+   Model calls so far             : 195
+   Starting phi for this iteration                          :  2.09330E+07
+   Contribution to phi from observation group "spei"        :  2.09320E+07
+   Contribution to phi from observation group "annpre"      :   992.25    
+       param "m9_drysl_p" frozen: - update vector out of bounds
+
+       Lambda =   10.000     ----->
+          Phi =  7.48890E+06  (  0.358 of starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   4.6416     ----->
+          Phi =  4.13259E+07  (  1.974 times starting phi)
+
+       Broyden's update of Jacobian matrix undertaken.
+
+       Lambda =   21.544     ----->
+          Phi =  2.40042E+07  (  1.147 times starting phi)
+
+   No more lambdas: phi rising
+   Lowest phi this iteration:  7.48890E+06
+
+      Current parameter values                 Previous parameter values
+      m1_drysl_n       2.94809                 m1_drysl_n        3.03204    
+      m1_drysl_p      0.212296                 m1_drysl_p       0.229701    
+      m2_drysl_n       5.56285                 m2_drysl_n        5.63979    
+      m2_drysl_p      0.241261                 m2_drysl_p       0.227774    
+      m3_drysl_n       2.98033                 m3_drysl_n        2.78963    
+      m3_drysl_p      0.304918                 m3_drysl_p       0.293782    
+      m4_drysl_n       2.63176                 m4_drysl_n        2.73056    
+      m4_drysl_p      0.155512                 m4_drysl_p       0.161039    
+      m5_drysl_n       2.69250                 m5_drysl_n        2.99051    
+      m5_drysl_p      0.443161                 m5_drysl_p       0.441745    
+      m6_drysl_n       6.18735                 m6_drysl_n        6.29339    
+      m6_drysl_p      0.392333                 m6_drysl_p       0.408649    
+      m7_drysl_n       7.14374                 m7_drysl_n        6.90715    
+      m7_drysl_p      0.174928                 m7_drysl_p       0.159450    
+      m8_drysl_n       2.82883                 m8_drysl_n        2.70737    
+      m8_drysl_p      0.165358                 m8_drysl_p       0.156910    
+      m9_drysl_n       6.78657                 m9_drysl_n        7.58569    
+      m9_drysl_p      0.130000                 m9_drysl_p       0.130000    
+      m10_drysl_n      3.04242                 m10_drysl_n       2.94168    
+      m10_drysl_p     0.489701                 m10_drysl_p      0.493398    
+      m11_drysl_n      4.80223                 m11_drysl_n       5.26014    
+      m11_drysl_p     0.144495                 m11_drysl_p      0.154280    
+      m12_drysl_n      6.06730                 m12_drysl_n       5.97975    
+      m12_drysl_p     0.134866                 m12_drysl_p      0.125921    
+      m1_wetsl_n       4.33437                 m1_wetsl_n        4.42274    
+      m1_wetsl_p      0.325957                 m1_wetsl_p       0.314454    
+      m2_wetsl_n       4.83505                 m2_wetsl_n        4.74083    
+      m2_wetsl_p      0.671410                 m2_wetsl_p       0.688266    
+      m3_wetsl_n       5.53285                 m3_wetsl_n        5.07380    
+      m3_wetsl_p      0.409121                 m3_wetsl_p       0.389236    
+      m4_wetsl_n       3.71247                 m4_wetsl_n        3.50845    
+      m4_wetsl_p      0.705473                 m4_wetsl_p       0.673809    
+      m5_wetsl_n      0.947462                 m5_wetsl_n       0.943775    
+      m5_wetsl_p      0.232827                 m5_wetsl_p       0.248378    
+      m6_wetsl_n       4.65908                 m6_wetsl_n        4.65025    
+      m6_wetsl_p      0.366959                 m6_wetsl_p       0.366295    
+      m7_wetsl_n       3.45313                 m7_wetsl_n        3.80910    
+      m7_wetsl_p      0.241456                 m7_wetsl_p       0.234715    
+      m8_wetsl_n       4.15522                 m8_wetsl_n        4.19778    
+      m8_wetsl_p      0.281984                 m8_wetsl_p       0.316224    
+      m9_wetsl_n      0.891807                 m9_wetsl_n       0.894805    
+      m9_wetsl_p      0.690168                 m9_wetsl_p       0.633742    
+      m10_wetsl_n      3.87978                 m10_wetsl_n       3.87465    
+      m10_wetsl_p     0.283557                 m10_wetsl_p      0.281496    
+      m11_wetsl_n      4.45607                 m11_wetsl_n       4.64396    
+      m11_wetsl_p     0.832249                 m11_wetsl_p      0.838048    
+      m12_wetsl_n     0.893932                 m12_wetsl_n      0.882838    
+      m12_wetsl_p     0.705844                 m12_wetsl_p      0.752357    
+      m1_pdep_a        1.74281                 m1_pdep_a         1.68626    
+      m1_pdep_c       0.688502                 m1_pdep_c        0.700954    
+      m1_pdep_sca      5.70935                 m1_pdep_sca       5.59250    
+      m2_pdep_a       0.824595                 m2_pdep_a        0.808054    
+      m2_pdep_c        2.62178                 m2_pdep_c         2.59645    
+      m2_pdep_sca      11.7754                 m2_pdep_sca       11.7001    
+      m3_pdep_a        1.40208                 m3_pdep_a         1.45022    
+      m3_pdep_c        2.30626                 m3_pdep_c         2.33689    
+      m3_pdep_sca      4.67901                 m3_pdep_sca       4.76427    
+      m4_pdep_a        1.68116                 m4_pdep_a         1.70101    
+      m4_pdep_c        2.36775                 m4_pdep_c         2.37128    
+      m4_pdep_sca      5.64850                 m4_pdep_sca       5.66800    
+      m5_pdep_a       0.773003                 m5_pdep_a        0.790460    
+      m5_pdep_c        2.55846                 m5_pdep_c         2.58273    
+      m5_pdep_sca      10.9312                 m5_pdep_sca       11.4604    
+      m6_pdep_a       0.690183                 m6_pdep_a        0.720433    
+      m6_pdep_c       0.820691                 m6_pdep_c        0.819483    
+      m6_pdep_sca      4.89764                 m6_pdep_sca       4.98897    
+      m7_pdep_a       0.763946                 m7_pdep_a        0.753157    
+      m7_pdep_c       0.744630                 m7_pdep_c        0.747124    
+      m7_pdep_sca      9.07434                 m7_pdep_sca       9.07859    
+      m8_pdep_a        1.47802                 m8_pdep_a         1.44977    
+      m8_pdep_c       0.749694                 m8_pdep_c        0.757625    
+      m8_pdep_sca      10.2749                 m8_pdep_sca       10.1519    
+      m9_pdep_a        1.60000                 m9_pdep_a         1.55675    
+      m9_pdep_c       0.688296                 m9_pdep_c        0.698531    
+      m9_pdep_sca      11.6134                 m9_pdep_sca       11.3906    
+      m10_pdep_a       1.59655                 m10_pdep_a        1.53078    
+      m10_pdep_c      0.568260                 m10_pdep_c       0.583871    
+      m10_pdep_sca     6.18660                 m10_pdep_sca      6.07883    
+      m11_pdep_a       1.23515                 m11_pdep_a        1.24017    
+      m11_pdep_c      0.805697                 m11_pdep_c       0.801772    
+      m11_pdep_sca     9.54814                 m11_pdep_sca      9.49003    
+      m12_pdep_a       1.38731                 m12_pdep_a        1.39003    
+      m12_pdep_c       2.46590                 m12_pdep_c        2.46590    
+      m12_pdep_sca     4.61234                 m12_pdep_sca      4.62314    
+      tmax_wet_add     5.84316                 tmax_wet_add      5.67253    
+      tmax_dry_add     6.32936                 tmax_dry_add      6.05253    
+      tmin_wet_add     2.17067                 tmin_wet_add      2.18422    
+      tmin_dry_add     2.15411                 tmin_dry_add      2.13617    
+      ev_2yr_max       203.711                 ev_2yr_max        202.586    
+      ev_5yr_max       139.914                 ev_5yr_max        140.437    
+      ev_10yr_max      305.531                 ev_10yr_max       303.907    
+      ev_25yr_max      350.274                 ev_25yr_max       351.503    
+      ev_50yr_max      464.732                 ev_50yr_max       465.650    
+      ev_100yr_max     525.615                 ev_100yr_max      527.481    
+   Maximum   factor change:  1.121     ["m8_wetsl_p"]
+   Maximum relative change: 0.1083     ["m8_wetsl_p"]
+
+   Optimisation complete:   3 optimisation iterations have elapsed since lowest
+                          phi was achieved.
+   Total model calls:    386
+
+   The model has been run one final time using best parameters. 
+   Thus all model input files contain best parameter values, and model 
+   output files contain model results based on these parameters.
+
+
+                            OPTIMISATION RESULTS
+
+Covariance matrix and parameter confidence intervals cannot be determined:-
+Some form or regularisation was implemented so these are not applicable.
+
+Use the PREDUNC7 utility to obtain a full posterior covariance matrix.
+
+
+Parameters ----->
+
+Parameter      Estimated value
+ m1_drysl_n      3.08446    
+ m1_drysl_p     0.238430    
+ m2_drysl_n      5.72871    
+ m2_drysl_p     0.234650    
+ m3_drysl_n      2.79935    
+ m3_drysl_p     0.264700    
+ m4_drysl_n      2.74598    
+ m4_drysl_p     0.150750    
+ m5_drysl_n      2.97342    
+ m5_drysl_p     0.415690    
+ m6_drysl_n      6.35677    
+ m6_drysl_p     0.380520    
+ m7_drysl_n      7.00000    
+ m7_drysl_p     0.164190    
+ m8_drysl_n      2.81408    
+ m8_drysl_p     0.154200    
+ m9_drysl_n      7.00000    
+ m9_drysl_p     0.149240    
+ m10_drysl_n     2.76808    
+ m10_drysl_p    0.512430    
+ m11_drysl_n     5.21857    
+ m11_drysl_p    0.158080    
+ m12_drysl_n     5.91721    
+ m12_drysl_p    0.130000    
+ m1_wetsl_n      4.33164    
+ m1_wetsl_p     0.334820    
+ m2_wetsl_n      5.00000    
+ m2_wetsl_p     0.698290    
+ m3_wetsl_n      5.00000    
+ m3_wetsl_p     0.395320    
+ m4_wetsl_n      3.48693    
+ m4_wetsl_p     0.666330    
+ m5_wetsl_n     0.886790    
+ m5_wetsl_p     0.251080    
+ m6_wetsl_n      4.74907    
+ m6_wetsl_p     0.407000    
+ m7_wetsl_n      3.72882    
+ m7_wetsl_p     0.250000    
+ m8_wetsl_n      4.50840    
+ m8_wetsl_p     0.312160    
+ m9_wetsl_n     0.931210    
+ m9_wetsl_p     0.678820    
+ m10_wetsl_n     3.87295    
+ m10_wetsl_p    0.299350    
+ m11_wetsl_n     5.00000    
+ m11_wetsl_p    0.800000    
+ m12_wetsl_n    0.861460    
+ m12_wetsl_p    0.800000    
+ m1_pdep_a       1.66978    
+ m1_pdep_c      0.700000    
+ m1_pdep_sca     5.53745    
+ m2_pdep_a      0.784720    
+ m2_pdep_c       2.59456    
+ m2_pdep_sca     11.3880    
+ m3_pdep_a       1.43639    
+ m3_pdep_c       2.37903    
+ m3_pdep_sca     4.88047    
+ m4_pdep_a       1.69821    
+ m4_pdep_c       2.37617    
+ m4_pdep_sca     5.51202    
+ m5_pdep_a      0.789740    
+ m5_pdep_c       2.58385    
+ m5_pdep_sca     11.6611    
+ m6_pdep_a      0.718600    
+ m6_pdep_c      0.805530    
+ m6_pdep_sca     4.95406    
+ m7_pdep_a      0.789620    
+ m7_pdep_c      0.742490    
+ m7_pdep_sca     9.18295    
+ m8_pdep_a       1.46396    
+ m8_pdep_c      0.757160    
+ m8_pdep_sca     10.2652    
+ m9_pdep_a       1.54730    
+ m9_pdep_c      0.691570    
+ m9_pdep_sca     11.3065    
+ m10_pdep_a      1.44484    
+ m10_pdep_c     0.608160    
+ m10_pdep_sca    6.01095    
+ m11_pdep_a      1.30427    
+ m11_pdep_c     0.791060    
+ m11_pdep_sca    9.48957    
+ m12_pdep_a      1.41746    
+ m12_pdep_c      2.49844    
+ m12_pdep_sca    4.62625    
+ tmax_wet_add    5.79470    
+ tmax_dry_add    5.99872    
+ tmin_wet_add    2.14164    
+ tmin_dry_add    2.12933    
+ ev_2yr_max      201.760    
+ ev_5yr_max      140.000    
+ ev_10yr_max     300.760    
+ ev_25yr_max     354.340    
+ ev_50yr_max     465.650    
+ ev_100yr_max    526.310    
+
+See file wgfit.sen for parameter sensitivities.
+
+
+Observations ----->
+
+Observation            Measured       Calculated     Residual       Weight     Group
+                       value          value
+ann_ave_pre_dep        953.900        952.500        1.40000        1.000      annpre      
+mon_1_cum_prob        0.175000       0.132000       4.300000E-02   2.0000E+04  spei        
+mon_2_cum_prob        0.175000       0.171000       4.000000E-03   2.0000E+04  spei        
+mon_3_cum_prob        0.175000       9.000000E-02   8.500000E-02   2.0000E+04  spei        
+mon_4_cum_prob        0.175000       0.198000      -2.300000E-02   2.0000E+04  spei        
+mon_5_cum_prob        0.175000       0.183000      -8.000000E-03   2.0000E+04  spei        
+mon_6_cum_prob        0.175000       0.187000      -1.200000E-02   2.0000E+04  spei        
+mon_7_cum_prob        0.175000       0.150000       2.500000E-02   2.0000E+04  spei        
+mon_8_cum_prob        0.175000       0.164000       1.100000E-02   2.0000E+04  spei        
+mon_9_cum_prob        0.175000       0.153000       2.200000E-02   2.0000E+04  spei        
+mon_10_cum_prob       0.175000       0.188000      -1.300000E-02   2.0000E+04  spei        
+mon_11_cum_prob       0.175000       0.194000      -1.900000E-02   2.0000E+04  spei        
+mon_12_cum_prob       0.175000       0.128000       4.700000E-02   2.0000E+04  spei        
+
+See file wgfit.res for more details of residuals in graph-ready format.
+
+See file wgfit.seo for composite observation sensitivities.
+
+
+Objective function ----->
+
+  Sum of squared weighted residuals (ie phi)                =  5.51840E+06
+  Contribution to phi from observation group "spei"         =  5.51840E+06
+  Contribution to phi from observation group "annpre"       =   1.9600    
+
+
+Correlation Coefficient ----->
+
+  Correlation coefficient                                   =  0.71250    
+
+
+Analysis of residuals ----->
+
+  All residuals:-
+     Number of residuals with non-zero weight                       =    13
+     Mean value of non-zero weighted residuals                      =   249.3    
+     Maximum weighted residual [observation "mon_3_cum_prob"]       =   1700.    
+     Minimum weighted residual [observation "mon_4_cum_prob"]       =  -460.0    
+     Standard variance of weighted residuals                        =  4.2449E+05
+     Standard error of weighted residuals                           =   651.5    
+
+     Note: the above variance was obtained by dividing the objective 
+     function by the number of system degrees of freedom (ie. number of 
+     observations with non-zero weight plus number of prior information 
+     articles with non-zero weight minus the number of adjustable parameters.)
+     If the degrees of freedom is negative the divisor becomes 
+     the number of observations with non-zero weight plus the number of 
+     prior information items with non-zero weight.
+
+  Residuals for observation group "spei":-
+     Number of residuals with non-zero weight                       =    12
+     Mean value of non-zero weighted residuals                      =   270.0    
+     Maximum weighted residual [observation "mon_3_cum_prob"]       =   1700.    
+     Minimum weighted residual [observation "mon_4_cum_prob"]       =  -460.0    
+     "Variance" of weighted residuals                               =  4.5987E+05
+     "Standard error" of weighted residuals                         =   678.1    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+  Residuals for observation group "annpre":-
+     Number of residuals with non-zero weight                       =     1
+     Mean value of non-zero weighted residuals                      =   1.400    
+     Maximum weighted residual [observation "ann_ave_pre_dep"]      =   1.400    
+     Minimum weighted residual [observation "ann_ave_pre_dep"]      =   1.400    
+     "Variance" of weighted residuals                               =   1.960    
+     "Standard error" of weighted residuals                         =   1.400    
+
+     Note: the above "variance" was obtained by dividing the sum of squared 
+     residuals by the number of items with non-zero weight.
+
+
+Covariance and other statistical matrices cannot be determined:-
+Some form or regularisation was implemented so these are not applicable.
+
+Use the PREDUNC7 utility to obtain a full posterior covariance matrix.
+

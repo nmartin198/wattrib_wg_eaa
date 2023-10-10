@@ -1,0 +1,14 @@
+ Observation           Group         Measured          Modelled        Sensitivity
+ ann_ave_pre_dep       annpre         835.6000          833.3000          1171.701    
+ mon_1_cum_prob        spei          0.1520000         0.1740000          200.6235    
+ mon_2_cum_prob        spei          0.1520000         0.1410000          164.6587    
+ mon_3_cum_prob        spei          0.1520000         9.6000000E-02      133.7268    
+ mon_4_cum_prob        spei          0.1520000         0.1820000          281.2952    
+ mon_5_cum_prob        spei          0.1520000         0.1490000          236.0752    
+ mon_6_cum_prob        spei          0.1520000         8.8000000E-02      222.8084    
+ mon_7_cum_prob        spei          0.1520000         0.1740000          271.9560    
+ mon_8_cum_prob        spei          0.1520000         0.1410000          202.6998    
+ mon_9_cum_prob        spei          0.1520000         0.1210000          192.1167    
+ mon_10_cum_prob       spei          0.1520000         0.1880000          280.5923    
+ mon_11_cum_prob       spei          0.1520000         0.1420000          243.4408    
+ mon_12_cum_prob       spei          0.1520000         0.1360000          187.3302    

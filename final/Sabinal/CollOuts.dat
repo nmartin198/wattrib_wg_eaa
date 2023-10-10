@@ -1,0 +1,18 @@
+Collated weather generator output for 1000 realizations 
+
+Annual average precipitation depth in mm:  808.4 
+Annual average ETo depth in mm: 2028.4 
+Annual average deficit depth in mm: -1219.9 
+
+Month 1 - 3-month cumulative deficit (mm) -210.3; target cumulative probability 0.203; actual cumulative probability  0.212 
+Month 2 - 3-month cumulative deficit (mm) -218.4; target cumulative probability 0.203; actual cumulative probability  0.184 
+Month 3 - 3-month cumulative deficit (mm) -272.8; target cumulative probability 0.203; actual cumulative probability  0.164 
+Month 4 - 3-month cumulative deficit (mm) -344.4; target cumulative probability 0.203; actual cumulative probability  0.255 
+Month 5 - 3-month cumulative deficit (mm) -441.0; target cumulative probability 0.203; actual cumulative probability  0.205 
+Month 6 - 3-month cumulative deficit (mm) -494.0; target cumulative probability 0.203; actual cumulative probability  0.138 
+Month 7 - 3-month cumulative deficit (mm) -531.5; target cumulative probability 0.203; actual cumulative probability  0.228 
+Month 8 - 3-month cumulative deficit (mm) -550.3; target cumulative probability 0.203; actual cumulative probability  0.205 
+Month 9 - 3-month cumulative deficit (mm) -514.0; target cumulative probability 0.203; actual cumulative probability  0.205 
+Month 10 - 3-month cumulative deficit (mm) -401.8; target cumulative probability 0.203; actual cumulative probability 0.224 
+Month 11 - 3-month cumulative deficit (mm) -310.1; target cumulative probability 0.203; actual cumulative probability 0.190 
+Month 12 - 3-month cumulative deficit (mm) -259.5; target cumulative probability 0.203; actual cumulative probability 0.200 
