@@ -1,6 +1,7 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.xlsx filter=lfs diff=lfs merge=lfs -text
+*.tpl linguist-vendored
 assets/* linguist-documentation
 calibration/* linguist-vendored
 final/* linguist-vendored
