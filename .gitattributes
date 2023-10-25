@@ -1,4 +1,11 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
 assets/* linguist-documentation
 calibration/* linguist-vendored
 final/* linguist-vendored
 jupyter_notebooks/* linguist-documentation
+accessory_data/* linguist-vendored
+accessory_data/daymet/* linguist-vendored
+accessory_data/gis/* linguist-vendored
+accessory_data/loca2/* linguist-vendored
