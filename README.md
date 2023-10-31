@@ -29,7 +29,7 @@ The WG source code is available at [**src**](https://github.com/nmartin198/wattr
 Calibration examples are provided for each off the nine basins in [**calibration**](https://github.com/nmartin198/wattrib_wg_eaa/tree/main/calibration).
 
 
-## Implementation Example
+## Implementation Examples
 
 Implementation examples are provided for all nine basins in [**final**](https://github.com/nmartin198/wattrib_wg_eaa/tree/main/final).
 
