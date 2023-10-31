@@ -8,6 +8,16 @@ This repository provides the source code for a custom weather generator (WG) tha
          alt="Weather Generator with Events Schematic">
 </figure>
 
+<br/>
+
+There are nine basins in the EAA study area as shown below. These basins were originally delineated for HSPF modeling.
+<br/>
+<figure>
+    <img src="/assets/Study_Area-Full_Basins.png"
+         width="1000"
+         alt="EAA Nine Basins">
+</figure>
+
 
 ## Source Code
 
@@ -22,6 +32,16 @@ Calibration examples are provided for each off the nine basins in [**calibration
 ## Implementation Example
 
 Implementation examples are provided for all nine basins in [**final**](https://github.com/nmartin198/wattrib_wg_eaa/tree/main/final).
+
+
+## Extra Data
+
+Daymet historical observations and LOCA2-downscaled, CMIP6 projected climate for emissions scenario ssp585 are available in  [**accessory_data**](https://github.com/nmartin198/wattrib_wg_eaa/tree/main/accessory_data).
+
+
+## Example Plots and Calculations
+
+Many of the plots and final calculations for this study were implemented in Jupyter Notebooks. These notebooks are available at   [**jupyter_notebooks**](https://github.com/nmartin198/wattrib_wg_eaa/tree/main/jupyter_notebooks).
 
 
 ## Author
